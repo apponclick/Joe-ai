@@ -5,7 +5,7 @@ export default function WhatsAppWidget() {
   const message = encodeURIComponent(
     "Hi! I'm interested in learning more about Joe-ai and would like to book a demo."
   );
-  const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/[^0-9]/g, '')}?text=${message}`;
+  const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/[^0-12]/g, '')}?text=${message}`;
 
   return (
     <a
