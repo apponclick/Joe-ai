@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function WhatsAppWidget() {
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+97152421616';
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+971524218866';
   const message = encodeURIComponent(
     "Hi! I'm interested in learning more about Joe-ai and would like to book a demo."
   );
